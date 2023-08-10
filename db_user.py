@@ -2,6 +2,7 @@ from sqlalchemy.orm.session import Session
 from Schema import UserBase
 from models import DBUser
 from hash import Hash
+import pandas
 
 
 def create_user(db:Session,request:UserBase):
